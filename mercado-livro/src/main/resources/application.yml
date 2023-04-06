@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+  jackson:
+    default-property-inclusion: non_null
+
+
+jwt:
+  secret: 9115839d-8755-4298-aa71-c9a4085896f6
+  expiration: 999999
